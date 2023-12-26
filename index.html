@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +13,6 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://" />
     <meta property="og:url" content="https://somified.com" />
-
     <title>Somify - Go Online for Just $9</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -275,11 +274,11 @@
           <picture class="block-showcase__image" data-aos="zoom-in-right">
             <source
               type="image/webp"
-              srcset="images/ipad.webp 1x, images/ipad@2x.webp"
+              srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
             />
             <source
               type="image/png"
-              srcset="images/ipad.png 1x, images/ipad@2x.png"
+              srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
             />
             <img src="images/ipad@2x.png" alt="" />
           </picture>
@@ -399,12 +398,12 @@
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Products</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Website Hostings</a></li>
@@ -414,12 +413,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Company</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">About</a></li>
@@ -429,12 +428,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Supports</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Contact</a></li>
@@ -444,12 +443,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Domain</h2>
             <svg class="icon icon--white collapsible__chevron">
               <use xlink:href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Domain Checker</a></li>
@@ -458,10 +457,10 @@
             </ul>
           </div>
         </section>
-        <section class="footer__brand">
+        <div class="footer__brand">
           <img src="/images/logo.svg" alt="" />
           <p class="footer__copyright">Copyright &copy; 2023 Sonam Dhendup</p>
-        </section>
+        </div>
       </div>
     </footer>
 
